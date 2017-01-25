@@ -1,12 +1,11 @@
-﻿namespace Sitecore.Support.ContentTesting.Helpers
-{
-    using Sitecore;
-    using Sitecore.Configuration;
-    using Sitecore.Data;
-    using Sitecore.Data.Items;
-    using Sitecore.Diagnostics;
-    using Sitecore.Globalization;
+﻿using Sitecore.Configuration;
+using Sitecore.Data;
+using Sitecore.Data.Items;
+using Sitecore.Diagnostics;
+using Sitecore.Globalization;
 
+namespace Sitecore.Support.ContentTesting.Helpers
+{
     internal class VersionHelper
     {
         public static int GetLatestPublishedVersion(Item item)

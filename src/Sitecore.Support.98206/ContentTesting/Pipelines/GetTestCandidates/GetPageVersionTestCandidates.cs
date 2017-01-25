@@ -1,15 +1,8 @@
-﻿using System;
-using Sitecore.ContentTesting.Data.Configuration;
-using Sitecore.ContentTesting.Pipelines.GetTestCandidates;
-using Sitecore.Data;
+﻿using Sitecore.Data.Items;
+using Sitecore.Diagnostics;
 
 namespace Sitecore.Support.ContentTesting.Pipelines.GetTestCandidates
 {
-    using Sitecore.ContentTesting.Helpers;
-    using Sitecore.Data.Items;
-    using Sitecore.Diagnostics;
-
-
     public class GetPageVersionTestCandidates :
         Sitecore.ContentTesting.Pipelines.GetTestCandidates.GetPageVersionTestCandidates
     {
